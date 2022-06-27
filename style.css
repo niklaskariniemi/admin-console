@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+}
+
+section {
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    padding: 100px;
+}
