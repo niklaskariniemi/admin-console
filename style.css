@@ -2,8 +2,29 @@
     margin: 0;
 }
 
+.whole-page {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+}
+
 section {
     background-color: blanchedalmond;
     border: 1px solid black;
     padding: 100px;
+}
+
+.header {
+    grid-column: 2 / 6;
+    grid-row: 1 / 2;
+}
+
+.sidebar {
+    grid-column: 1 / 2;
+    grid-row: 1 / 6;
+}
+
+.main-content {
+    grid-column: 2 / 6;
+    grid-row: 2 / 6;
 }
