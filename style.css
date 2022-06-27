@@ -12,18 +12,44 @@ section {
     padding: 100px;
 }
 
+/* -- Header -- */
 .header {
     grid-column: 2 / 6;
     grid-row: 1 / 2;
     background-color: #ffffff;
 }
 
+/* -- Sidebar -- */
 .sidebar {
     grid-column: 1 / 2;
     grid-row: 1 / 6;
+    display: grid;
+    grid-template-columns: repeat(3, 1f);
+    grid-template-rows: repeat(5, 1f);
     background-color: #1992d4;
 }
 
+.sidebar-top {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+
+.sidebar-middle {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+}
+
+.sidebar-bottom {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+}
+
+.blank-space {
+    grid-column: 1 / 4;
+    grid-row: 4 / 6;
+}
+
+/* -- Main Content -- */
 .main-content {
     grid-column: 2 / 6;
     grid-row: 2 / 6;
