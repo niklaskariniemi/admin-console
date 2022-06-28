@@ -35,18 +35,19 @@ section {
     grid-row: 1 / 2;
     display: grid;
     grid-template-columns: repeat(5, 1f);
-    grid-template-rows:  repeat(5, 1f);
+    grid-template-rows:  repeat(1, 1f);
+    align-items: center;
 }
 
 .sidebar-top .icon {
     grid-column: 1 / 2;
-    grid-row: 2 / 3;
-    font-size: 30px;
+    grid-row: 1 / 2;
+    font-size: 36px;
 }
 
 .sidebar-top .title {
     grid-column: 2 / 6;
-    grid-row: 2 / 3;
+    grid-row: 1 / 2;
     font-size: 24px;
     margin-left: 10px;
 }
@@ -54,6 +55,88 @@ section {
 .sidebar-middle {
     grid-column: 1 / 4;
     grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(5, 1f);
+    grid-template-rows:  repeat(6, 1f);
+    align-items: center;
+}
+
+.sidebar-middle .icon-home {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    font-size: 18px;
+}
+
+.sidebar-middle .title-home {
+    grid-column: 2 / 6;
+    grid-row: 1 / 2;
+    font-size: 18px;
+    margin-left: 12px;
+}
+
+.sidebar-middle .icon-profile {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    font-size: 18px;
+}
+
+.sidebar-middle .title-profile {
+    grid-column: 2 / 6;
+    grid-row: 2 / 3;
+    font-size: 18px;
+    margin-left: 12px;
+}
+
+.sidebar-middle .icon-messages {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    font-size: 18px;
+}
+
+.sidebar-middle .title-messages {
+    grid-column: 2 / 6;
+    grid-row: 3 / 4;
+    font-size: 18px;
+    margin-left: 12px;
+}
+
+.sidebar-middle .icon-history {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    font-size: 18px;
+}
+
+.sidebar-middle .title-history {
+    grid-column: 2 / 6;
+    grid-row: 4 / 5;
+    font-size: 18px;
+    margin-left: 12px;
+}
+
+.sidebar-middle .icon-task {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    font-size: 18px;
+}
+
+.sidebar-middle .title-task {
+    grid-column: 2 / 6;
+    grid-row: 5 / 6;
+    font-size: 18px;
+    margin-left: 12px;
+}
+
+.sidebar-middle .icon-communities {
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+    font-size: 18px;
+}
+
+.sidebar-middle .title-communities {
+    grid-column: 2 / 6;
+    grid-row: 6 / 7;
+    font-size: 18px;
+    margin-left: 12px;
 }
 
 .sidebar-bottom {
