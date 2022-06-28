@@ -38,6 +38,7 @@ section {
     grid-template-columns: repeat(5, 1f);
     grid-template-rows:  repeat(1, 1f);
     align-items: center;
+    margin: 20px;
 }
 
 .sidebar-top .icon {
@@ -60,11 +61,13 @@ section {
     grid-template-columns: repeat(5, 1f);
     grid-template-rows:  repeat(6, 1f);
     align-items: center;
+    margin: 20px;
 }
 
 .sidebar-middle .icon-home {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    margin-top: 14px;
     font-size: 18px;
     position: relative;
     text-align: center;
@@ -73,6 +76,7 @@ section {
 .sidebar-middle .title-home {
     grid-column: 2 / 6;
     grid-row: 1 / 2;
+    margin-top: 14px;
     font-size: 18px;
     margin-left: 12px;
 }
@@ -80,6 +84,7 @@ section {
 .sidebar-middle .icon-profile {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+    margin-top: 14px;
     font-size: 18px;
     position: relative;
     text-align: center;
@@ -88,6 +93,7 @@ section {
 .sidebar-middle .title-profile {
     grid-column: 2 / 6;
     grid-row: 2 / 3;
+    margin-top: 14px;
     font-size: 18px;
     margin-left: 12px;
 }
@@ -95,6 +101,7 @@ section {
 .sidebar-middle .icon-messages {
     grid-column: 1 / 2;
     grid-row: 3 / 4;
+    margin-top: 14px;
     font-size: 18px;
     position: relative;
     text-align: center;
@@ -103,6 +110,7 @@ section {
 .sidebar-middle .title-messages {
     grid-column: 2 / 6;
     grid-row: 3 / 4;
+    margin-top: 14px;
     font-size: 18px;
     margin-left: 12px;
 }
@@ -110,6 +118,7 @@ section {
 .sidebar-middle .icon-history {
     grid-column: 1 / 2;
     grid-row: 4 / 5;
+    margin-top: 14px;
     font-size: 18px;
     position: relative;
     text-align: center;
@@ -118,6 +127,7 @@ section {
 .sidebar-middle .title-history {
     grid-column: 2 / 6;
     grid-row: 4 / 5;
+    margin-top: 14px;
     font-size: 18px;
     margin-left: 12px;
 }
@@ -125,6 +135,7 @@ section {
 .sidebar-middle .icon-task {
     grid-column: 1 / 2;
     grid-row: 5 / 6;
+    margin-top: 14px;
     font-size: 18px;
     position: relative;
     text-align: center;
@@ -133,6 +144,7 @@ section {
 .sidebar-middle .title-task {
     grid-column: 2 / 6;
     grid-row: 5 / 6;
+    margin-top: 14px;
     font-size: 18px;
     margin-left: 12px;
 }
@@ -140,6 +152,7 @@ section {
 .sidebar-middle .icon-communities {
     grid-column: 1 / 2;
     grid-row: 6 / 7;
+    margin-top: 14px;
     font-size: 18px;
     position: relative;
     text-align: center;
@@ -148,6 +161,7 @@ section {
 .sidebar-middle .title-communities {
     grid-column: 2 / 6;
     grid-row: 6 / 7;
+    margin-top: 14px;
     font-size: 18px;
     margin-left: 12px;
 }
@@ -159,11 +173,13 @@ section {
     grid-template-columns: repeat(5, 1f);
     grid-template-rows:  repeat(6, 1f);
     align-items: center;
+    margin: 20px;
 }
 
 .sidebar-bottom .icon-settings {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    margin-top: 14px;
     font-size: 18px;
     position: relative;
     text-align: center;
@@ -172,6 +188,7 @@ section {
 .sidebar-bottom .title-settings {
     grid-column: 2 / 6;
     grid-row: 1 / 2;
+    margin-top: 14px;
     font-size: 18px;
     margin-left: 12px;
 }
@@ -179,6 +196,7 @@ section {
 .sidebar-bottom .icon-support {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+    margin-top: 14px;
     font-size: 18px;
     position: relative;
     text-align: center;
@@ -187,6 +205,7 @@ section {
 .sidebar-bottom .title-support {
     grid-column: 2 / 6;
     grid-row: 2 / 3;
+    margin-top: 14px;
     font-size: 18px;
     margin-left: 12px;
 }
@@ -194,6 +213,7 @@ section {
 .sidebar-bottom .icon-privacy {
     grid-column: 1 / 2;
     grid-row: 3 / 4;
+    margin-top: 14px;
     font-size: 18px;
     position: relative;
     text-align: center;
@@ -202,6 +222,7 @@ section {
 .sidebar-bottom .title-privacy {
     grid-column: 2 / 6;
     grid-row: 3 / 4;
+    margin-top: 14px;
     font-size: 18px;
     margin-left: 12px;
 }
@@ -214,6 +235,7 @@ section {
 .blank-space {
     grid-column: 1 / 4;
     grid-row: 4 / 6;
+    padding: 100px;
 }
 
 /* -- Main Content -- */
