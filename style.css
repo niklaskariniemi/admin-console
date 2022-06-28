@@ -19,6 +19,17 @@
     background-color: #ffffff;
 }
 
+.search-button {
+    background-color: white;
+    border: 0px;
+}
+
+.search-input {
+    border: 0px;
+    border-radius: 7px;
+    background-color: #e2e8f0;
+}
+
 /* -- Sidebar -- */
 .sidebar {
     grid-column: 1 / 2;
