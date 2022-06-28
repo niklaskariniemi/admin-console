@@ -13,6 +13,9 @@
 .header {
     grid-column: 2 / 6;
     grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: repeat(10, 1f);
+    grid-template-rows: repeat(2, 1f);
     background-color: #ffffff;
 }
 
