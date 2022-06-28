@@ -9,10 +9,6 @@
     grid-template-columns: repeat(5, 1fr);
 }
 
-section {
-    /*padding: 100px;*/
-}
-
 /* -- Header -- */
 .header {
     grid-column: 2 / 6;
