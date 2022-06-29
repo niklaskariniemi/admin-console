@@ -365,7 +365,7 @@
 .left-main {
     display: grid;
     grid-template-columns: repeat(1, 1f);
-    grid-template-rows: repeat(3, 1f);
+    grid-template-rows: repeat(4, 1f);
 }
 
 .box {
@@ -407,18 +407,29 @@
     margin-right: 10px;
 }
 
-#box-one {
+.left-title {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
-#box-two {
+.left-title > h3 {
+    font-size: 18px;
+}
+
+#box-one {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
 }
 
-#box-three {
+#box-two {
     grid-column: 1 / 2;
     grid-row: 3 / 4;
+}
+
+#box-three {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
     margin-bottom: 60px;
 }
