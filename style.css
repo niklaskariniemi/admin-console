@@ -40,11 +40,11 @@
 }
 
 .notification {
-    grid-column: 9 / 10;
+    grid-column: 8 / 9;
     grid-row: 1 / 2;
     font-size: 20px;
     position: relative;
-    text-align: left;
+    text-align: right;
 }
 
 .profile-pic {
@@ -59,7 +59,8 @@
 .profile-name {
     grid-column: 9 / 10;
     grid-row: 1 / 2;
-    margin-left: 34px;
+    position: relative;
+    text-align: center;
 }
 
 .bottom-profile-pic {
