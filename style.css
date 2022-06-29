@@ -40,21 +40,26 @@
 }
 
 .notification {
-    grid-column: 7 / 8;
+    grid-column: 9 / 10;
     grid-row: 1 / 2;
+    font-size: 20px;
+    position: relative;
+    text-align: left;
 }
 
 .profile-pic {
-    grid-column: 8 / 9;
+    grid-column: 10 / 11;
     grid-row: 1 / 2;
     background-color: #1992d4;
-    border-radius: 100px;
-    padding: 10px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
 }
 
 .profile-name {
-    grid-column: 9 / 11;
+    grid-column: 9 / 10;
     grid-row: 1 / 2;
+    margin-left: 34px;
 }
 
 .bottom-profile-pic {
