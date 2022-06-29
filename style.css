@@ -358,8 +358,14 @@
     grid-row: 2 / 6;
     display: grid;
     grid-template-columns: repeat(3, 1f);
-    grid-template-rows: repeat(3, 1f);
+    grid-template-rows: repeat(1, 1f);
     background-color: #e2e8f0;
+}
+
+.left-main {
+    display: grid;
+    grid-template-columns: repeat(1, 1f);
+    grid-template-rows: repeat(3, 1f);
 }
 
 .box {
@@ -404,4 +410,15 @@
 #box-one {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+}
+
+#box-two {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+#box-three {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    margin-bottom: 60px;
 }
