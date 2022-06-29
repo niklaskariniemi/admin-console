@@ -356,5 +356,9 @@
 .main-content {
     grid-column: 2 / 6;
     grid-row: 2 / 6;
+    display: grid;
+    grid-template-columns: repeat(3, 1f);
+    grid-template-rows: repeat(3, 1f);
     background-color: #e2e8f0;
 }
+
