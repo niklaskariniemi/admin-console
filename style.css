@@ -556,6 +556,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1f);
     grid-template-rows: repeat(4, 1f);
+    align-items: center;
 }
 
 .profile-pic-right-one {
@@ -565,6 +566,7 @@
     border-radius: 50%;
     height: 40px;
     width: 40px;
+    margin-top: 20px;
 }
 
 .profile-pic-right-two {
@@ -574,6 +576,7 @@
     border-radius: 50%;
     height: 40px;
     width: 40px;
+    margin-top: 20px;
 }
 
 .profile-pic-right-three {
@@ -583,6 +586,7 @@
     border-radius: 50%;
     height: 40px;
     width: 40px;
+    margin-top: 20px;
 }
 
 .profile-pic-right-four {
@@ -592,4 +596,65 @@
     border-radius: 50%;
     height: 40px;
     width: 40px;
+    margin-top: 20px;
+}
+
+.right-one {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin-top: 20px;
+}
+
+.right-one > h6 {
+    font-size: 14px;
+}
+
+.right-one > p {
+    font-size: 12px;
+    color: #a4a4a4;
+}
+
+.right-two {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    margin-top: 20px;
+}
+
+.right-two > h6 {
+    font-size: 14px;
+}
+
+.right-two > p {
+    font-size: 12px;
+    color: #a4a4a4;
+}
+
+.right-three {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    margin-top: 20px;
+}
+
+.right-three > h6 {
+    font-size: 14px;
+}
+
+.right-three > p {
+    font-size: 12px;
+    color: #a4a4a4;
+}
+
+.right-four {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    margin-top: 20px;
+}
+
+.right-four > h6 {
+    font-size: 14px;
+}
+
+.right-four > p {
+    font-size: 12px;
+    color: #a4a4a4;
 }
